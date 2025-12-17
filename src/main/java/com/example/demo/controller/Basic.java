@@ -1,8 +1,8 @@
 package com.example.demo.controller;
 import org.springframework.web.bind.annotation.*;
-@RestController;
+@RestController
 public class Basic{
-    @Getmapping("/home")
+    @GetMapping("/home")
     public String getter(){
         return "HelloWorld";
     }
