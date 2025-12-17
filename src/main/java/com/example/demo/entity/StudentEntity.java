@@ -1,4 +1,4 @@
-package com.example.project.entity;
+package com.example.project.StudentEntity;
 
 
 public class StudentEntity {
@@ -25,7 +25,7 @@ public class StudentEntity {
         this.email = email;
     }
    
-    public StudentEntity(int id, String name, String email, LocalDate dob, float cgpa) {
+    public StudentEntity(int id, String name, String email) {
         this.id = id;
         this.name = name;
         this.email = email;
